@@ -113,7 +113,7 @@ cout<<b<<" :"<<b1<<" "<<endl;
 cout<<g<<" :"<<g1<<" "<<endl;
 cout<<r<<" :"<<r1<<" "<<endl;
 
-Mat BGR_SHOW = Mat::zeros(100,100,CV_16F);
+Mat BGR_SHOW = Mat::zeros(100,100,CV_8UC3);
 Vec3b BGRColor=(b1,g1,r1);
  for (int y=0;y<100;y++)
     {
