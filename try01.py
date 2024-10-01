@@ -3,7 +3,8 @@ import cv2
 # 创建VideoCapture对象，参数为0表示使用本地摄像头
 # 初始化摄像头
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)# 前置为0，1为后置摄像头
+
 
 print(cap.isOpened())
 # 处理每一帧
