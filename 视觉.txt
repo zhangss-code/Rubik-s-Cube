@@ -1,6 +1,7 @@
-opencv + TensorFlow深度学习方法
+opencv 
 
 1.opencv环境的配置
 2.python开发环境配置
-3.深度学习方法
+3.使用轮廓识别和聚类算法
+
 
